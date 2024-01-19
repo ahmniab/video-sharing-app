@@ -1,0 +1,66 @@
+body{
+    background-color: #2B2A4C;
+    color: #FCF5ED;
+}
+.container{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+}
+
+.card video{
+    height: 150px;
+    overflow: hidden;
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.folder{
+    color: #FCF5ED;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 0px solid #3498db;
+    background-color: transparent;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+
+}
+@media screen and (max-width: 480px){
+    .folder{
+        width: 90vw;
+        
+    }
+    .folder h1{
+        font-size: 70px;
+    }
+    
+}
+.folder:hover{
+    color: #FFCD4B;
+}
+.folder i{
+    font-size: 70px;
+}
+@media screen and (max-width: 480px){
+    .folder i{
+        font-size: 150px;
+    }
+    
+}
+.folder button{
+    background-color: transparent;
+}
